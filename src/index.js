@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import App from './containers/App';
 import reportWebVitals from './reportWebVitals';
+import HarryPotterLogo from './HarryPotterLogo.png';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <img className='logo' alt='' src={HarryPotterLogo}></img>
     <App />
   </React.StrictMode>
 );

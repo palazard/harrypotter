@@ -1,0 +1,16 @@
+h2{
+    font-size: 1.2rem;
+    color: white;
+}
+
+.characterName {
+    font-size: 3rem;
+    color: rgb(202, 202, 27);
+
+}
+
+img{
+    max-width: 90%;
+    max-height: 400px;
+
+}
